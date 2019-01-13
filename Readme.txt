@@ -14,3 +14,19 @@ git remote -v
 
 #Push the files to repository using
 git push origin master
+
+
+#Switch to new branch
+git checkout EDA
+
+#Command to check the files to be added
+git status
+
+#COmmand to add file
+git add "filename"
+
+#Command to commit the file to repository
+git commit -m "comment" <file_name>
+
+#Command to pust to new branch
+git push origin EDA
