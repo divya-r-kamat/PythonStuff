@@ -34,3 +34,10 @@ git commit -m "comment" <file_name>
 #Command to pust to new branch
 git push origin EDA
 >>>>>>> EDA
+
+
+git checkout -b EDA # Switch to a new branch "EDA"
+vim index.html # Edit your website
+git commit -a -m 'merge to master' # Commit Done
+git checkout master # Switch to branch 'master'
+git merge EDA # merge to master
