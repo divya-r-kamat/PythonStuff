@@ -8,8 +8,8 @@ Created on Fri Mar 23 19:43:39 2018
 
 import requests
 
-response = requests.get("http://www.aayisrecipes.com/munchies-dabbe-khaan/spicy-shankarpalkharatheek-shankarpal/")
+response = requests.get("https://en.wikipedia.org/wiki/main_page")
 
 print(response.status_code)
 
-print(response.content)
+print(response.content.decode("utf-8").find("Did you know"))
